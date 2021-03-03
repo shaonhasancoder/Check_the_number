@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding:100px 5px 5px 5px;
+
+}
+.mainContainer{
+    width: 779px;
+    height: 300px;
+    background:url('watercolour-4116932_1280.png');
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: arial;
+}
+.subContainer{
+    background: url('watercolour-4116932_1280.png');
+
+}

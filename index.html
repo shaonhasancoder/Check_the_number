@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>check number</title>
+</head>
+    <body>
+        <div class="mainContainer">
+            <h2>Now we will see the resulting number was even or odd numbers with negative or positive.</h2>
+
+            <div class="subContainer">
+                <script>
+                    var number= prompt("Enter your number");
+                    var first_Result;
+                    var second_Result;
+                    if (number%2 == 0){
+                        first_Result= "The number is even "
+                    }
+                    else {
+                        first_Result= "The number is odd "
+                    }
+                    if (number > 0){
+                        second_Result= " & positive."
+                    }
+                    else if (number < 0){
+                        second_Result= " & negative."
+                    }
+                    else{
+                        second_Result= " , zero it's not only positive but also negative."
+                    }
+                    document.write(first_Result + second_Result );
+                </script>
+
+            </div>
+        </div>
+</body>
+</html>
